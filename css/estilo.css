@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/*"Merriweather"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+/*"Playwrite DE Grund"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+/*"Playwrite GB J"*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Gerais
+---------------*/
+h5{
+    color: #c29147;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    text-shadow: 0px 1px 1px #00000060;
+}
+
+/*Nav
+----------------*/
+nav{
+    background-color: #1A1B1D;
+    border-bottom: 2px solid white;
+}
+
+.navbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul a{
+    color: #B89767;
+}
+
+ul a:hover{
+    color: #cfaf80;
+}
+
+nav button.btn{
+    color: #B89767;
+
+    background-color: #1A1B1D;
+
+    border: 1px solid #B89767;
+    border-radius: 20px;
+}
+
+nav button.btn:hover{
+    background-color: #252628;
+}
+
+/*Topo
+---------------*/
+#topo{
+    background-image: url(../img/Topo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 700px;
+}
+
+#sob_texto{
+    color: white;
+
+    background-color: #00000090;
+    height: 700px;
+}
+
+#sob_texto h1{
+    text-align: center;
+
+    padding-top: 500px;
+
+    font-family: "Merriweather", sans-serif;
+    font-weight: bold;
+}
+
+#sob_texto p{
+    color: #ebeaea;
+    text-align: center;
+}
+
+#sob_texto .caixa_texto{
+    text-align: center;
+    width: 800px;
+}
+
+/*Sobre
+---------------*/
+#sobre{
+    height: 370px;
+    background-color: white;
+    border-bottom: 2px solid #B89767;
+    border-top: 2px solid #B89767;
+}
+
+#sobre h1{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 2px #00000050;
+}
+
+#sobre hr{
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+}
+
+#sobre img{
+    box-shadow: 0px 0px 10px 6px #B89767;
+}
+
+/*Fotos
+--------------*/
+#fotos{
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #B89767;
+    background-color: #c29147;
+}
+
+#fotos p{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#fotos h5{
+    color: white;
+    padding-top: 225px;
+    margin-top: auto;
+}
+
+.caixa_foto{
+    height: 400px;
+}
+
+.caixa_texto_foto{
+    height: 400px;
+    background-color: #00000070;
+}
+
+#foto-1{
+    background-image: url(../img/Mulher_1.png);   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#foto-2{
+    background-image: url(../img/Mulher_2.png); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+#foto-3{
+    background-image: url(../img/Mulher_3.png); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+#foto-4{
+    background-image: url(../img/Mulher_4.png); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+#foto-5{
+    background-image: url(../img/Mulher_5.png);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+/*Horários
+--------------*/
+#horario{
+    height: 500px;
+    background-color: black;
+}
+
+#horario h1{
+    color: #B89767;
+    font-family: "Playwrite GB J";
+    font-size: 3.3em;
+    padding-bottom: 20px;
+}
+
+#horario span{
+    color: #B89767;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#horario .row{
+    padding-top: 40px;
+}
+
+/*Contatos
+--------------*/
+#contato{
+    height: 700px;
+    background-image: linear-gradient(to left, black 32%, white 10%);
+}
+
+#contato .row{
+    padding-top: 160px;
+}
+
+#contato h2{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-shadow: 0px 2px 2px #00000050;
+}
+
+#contato button.btn{
+    color: black;
+    background-color: #c8a571;
+    border-radius: 20px;
+}
+
+#contato button.btn:hover{
+    background-color: #e3c08c;
+}
+
+/*Formulario
+--------------*/
+#form{
+    height: 400px;
+    background-color: #1A1B1D;
+}
+
+input.form-control{
+    background-color: #b6b5b5;
+}
+
+textarea.form-control{
+    background-color: #b6b5b5;
+}
+
+#botao_enviar{
+    color: black;
+    background-color: #c8a571;
+}
+
+#botao_enviar:hover{
+    background-color: #e3c08c;
+}
+
+#form h4{
+    color: #887869;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Rodape
+---------------*/
+footer{
+    color: black;
+    text-align: center;
+
+    font-size: 14px;
+    font-family: "Merriweather";
+    font-weight: bold;
+    
+    height: 40px;
+    background-color: #967e5b;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+@media (max-width: 578.98px){
+    #topo{
+        height: 550px;
+    }
+    
+    #topo h1{
+        font-size: 2em;
+        padding-top: 350px;
+    }
+
+    #sobre{
+        padding-top: 50px;
+        height: 800px;
+    }
+
+    #sobre h1{
+        padding-top: 30px;
+    }
+
+    #horario{
+        height: 850px;
+    }
+
+    #horario .row{
+        padding-top: 85px;
+    }
+
+    #horario span{
+        font-size: 20px;
+    }
+
+    #contato{
+        height: 960px;
+        background-color: white;
+        background-image: none;
+    }
+
+    #contato .row{
+        padding-top: 100px;
+    }
+
+    #contato img{
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px #00000060;
+    }
+
+    #form{
+        height: 800px;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+
+    footer p{
+        padding-top: 8px;
+    }
+
+}
+
