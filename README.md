@@ -10,6 +10,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
 </div>
 <br>
-  
+
+Projeto individual, Modelo de Site de Salões de Beleza, criado a base de HTML5, CSS3, Bootstrap e JavaScript, abrangendo recursos como Flex-Box, Media Queries, Barra de Navegação Líquida, Imagens com resoluções Fluídas, entre outros recursos.
+(Disponível em Monitores de PC, Smartphones)
+
+<br>
 Link: https://luizdev271.github.io/Modelo-Salao-Beleza/
+<br>
+<br>
+Inspiração: https://www.behance.net/gallery/140019139/Salao-de-Beleza-Site-modelo/modules/791233407
 
